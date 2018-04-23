@@ -21,3 +21,7 @@ Te rog uitate pe **index** o sa te ajute destul de mult`);
 });
 
 client.login('NDM4MDYwOTkwNzY5MjY2Njg5.Db_JGQ.W_Vwr53KJK7fo5gjJTrsglQghAw');
+
+client.on('ready', () => {
+  client.user.setGame('♛ WarthBot.', 'https://www.twitch.tv/streamerhouse')
+})
