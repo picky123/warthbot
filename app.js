@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const token = ''NDM4MDYwOTkwNzY5MjY2Njg5.Db_JGQ.W_Vwr53KJK7fo5gjJTrsglQghAw'';
+const token = 'NDM5NDE1NDcyMTgyNTI1OTUz.DcS2TA.nXeGJI1MfyVLIzUaFEBXPl7SpmQ';
 
 client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
@@ -25,7 +25,7 @@ Hai să îti prezentăm ce ai putea găsi pe server :
 :small_orange_diamond: Un mediu prietenos.`);
 });
 
-client.login('NDM4MDYwOTkwNzY5MjY2Njg5.Db_JGQ.W_Vwr53KJK7fo5gjJTrsglQghAw');
+client.login('NDM5NDE1NDcyMTgyNTI1OTUz.DcS2TA.nXeGJI1MfyVLIzUaFEBXPl7SpmQ');
 
 client.on('ready', () => {
   client.user.setGame('♛ WarthBot.', 'https://www.twitch.tv/streamerhouse')
